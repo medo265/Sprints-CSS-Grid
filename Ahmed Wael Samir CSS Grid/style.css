@@ -1,0 +1,83 @@
+* {
+  font-family: "Cinzel", serif;
+  box-sizing: border-box;
+}
+
+/* set up for rem use in itme sizing (factor of 10) */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: rgb(204, 129, 94);
+}
+
+header {
+  background-color: rgb(231, 94, 14);
+  color: lemonchiffon;
+  display: flex;
+  border: black solid 2px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: lemonchiffon;
+  margin: 1rem;
+}
+
+section {
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+
+.column {
+  margin: 1rem;
+  text-align: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 40rem;
+  width: 30rem;
+  border: black solid 2px;
+  background-color: rgb(241, 241, 103);
+  margin: 1.5rem;
+}
+
+img {
+  width: 300px;
+  height: 150px;
+}
+
+.card h2 {
+  font-weight: bolder;
+  background-color: sandybrown;
+  width: 100%;
+  margin-top: 0;
+  border-top: black solid 1px;
+  border-bottom: black solid 1px;
+}
+
+.card h3 {
+  font-weight: bolder;
+  margin-top: 2rem;
+}
+
+button {
+  margin-top: 2rem;
+}
+
+.body p {
+  font-size: 1.1rem;
+}
